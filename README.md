@@ -13,12 +13,11 @@ A console-based application developed in **C** for managing train reservations. 
 
 ## 📂 Project Structure
 Railway-Reservation-System/
-├── main.c              # Main application logic
-├── reservation.c       # Functions related to reservation operations
-├── cancellation.c      # Functions related to cancellation operations
-├── view.c              # Functions to view reservations
-└── README.md           # Project documentation (this file)
-
+- main.c              # Main application logic
+- reservation.c       # Functions related to reservation operations
+- cancellation.c      # Functions related to cancellation operations
+- view.c              # Functions to view reservations
+- README.md           # Project documentation (this file)
 
 ## 🚀 Getting Started
 
@@ -51,5 +50,3 @@ gcc main.c reservation.c cancellation.c view.c -o railway_reservation
 - Add user authentication for secure access.
 - Enhance the user interface with color coding and better formatting.
 - Implement a graphical user interface (GUI) using libraries like GTK or Qt.
-
-
